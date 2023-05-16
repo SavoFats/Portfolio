@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saverio Grassi - Portfolio Website</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="img/logo.svg" />
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.svg" class="img-fluid" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">SU DI ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">SKILL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTATTI</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 order-lg-1 order-2 banner-content">
+            <h2 class="position-relative">Ciao! Sono</h2>
+            <h1>
+              <strong> <em>Saverio Grassi</em> </strong>
+            </h1>
+            <h5>IT Project Manager <br /></h5>
+            <div class="mt-5">
+              <a class="main-btn primary-btn" href="#contact">Contattami</a>
+              <a
+                class="main-btn secondary-btn ms-4"
+                href="https://drive.google.com/file/d/1fm_yXCKaiopV_SLjCulC-_p4C_fqLL0O/view?usp=sharing"
+                >Scarica CV</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-5 order-lg-2 order-1">
+            <div class="top-right-img">
+              <img id="fotoland" src="" class="img-fluid fixed" />
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <div id="aboutme">
+              <h3>SU DI ME</h3>
+              <p>
+                Sono Saverio, ho 29 anni e vivo a Latina. Sono laureato in
+                Management delle Tecnologie e nutro da sempre una forte passione
+                per il digitale.
+              </p>
+              <p>
+                Durante questi tre anni di consulenza presso grandissime realtà
+                del nostro Paese, sia Financial che Private, ho imparato
+                tantissimo su come lavorare in team, su come esporsi in modo
+                professionale con Fornitori e Clienti e, non ultimo, ad
+                utilizzare diversi tools per la gestione e2e del ciclo di vita
+                di progetti e programmi nelle principali metodologie.
+              </p>
+            </div>
+            <div id="qrcode" style="display: none">
+              <img src="img/qrcode_trimmered.png" />
+            </div>
+
+            <a
+              id="scancv"
+              href="#"
+              class="main-btn primary-btn mt-4"
+              data-type="scan"
+              >Scannerizza CV</a
+            >
+          </div>
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <img src="img/ragazzo.svg" class="img-fluid" alt="About Us" />
+          </div>
+        </div>
+        <div class="col-sm-12 text-center mb-5">
+          <h2 class="collab"><em> AZIENDE CON CUI HO COLLABORATO</em></h2>
+          <p class="d-none d-lg-block"></p>
+        </div>
+        <div class="row justify-content-center pt-5">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="row">
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="single-logo-item">
+                  <img src="img/pwc-logo-0.png" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="single-logo-item">
+                  <img src="img/siae.png" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="single-logo-item">
+                  <img src="img/spindox2.png" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="single-logo-item">
+                  <img src="img/logoef.png" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offset-lg-2 col-lg-4 col-md-10">
+            <div class="client-info">
+              <div class="d-flex">
+                <span class="large">3+</span>
+                <span class="smll"
+                  >Anni di <br />Esperienza <br />Lavorativa</span
+                >
+              </div>
+              <div class="call-now d-flex py-4">
+                <div>
+                  <span class="fa fa-phone-alt"></span>
+                </div>
+                <div class="ms-4">
+                  <p>Chiamami!</p>
+                  <h5>(+39) 392 5201679</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- About section exit -->
+
+    <!-- skills section -->
+    <section id="skills" class="skills_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-5">
+            <h2><em> SKILL</em></h2>
+            <p class="d-none d-lg-block"></p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/html.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">HTML</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/css-3.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">CSS</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/sass.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Sass</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/bootstrap.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Bootstrap</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/visual-studio.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Spiratest</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/excel.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Excel</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/powerpoint.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Power Point</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/servicenow_logo_icon_168835.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Service Now</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/spiratest.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Spiratest</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/shopify.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Spiratest</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/wordpress-logo.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Spiratest</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/trello.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Spiratest</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/letter-n.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Spiratest</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="./img/smartsheet.png" />
+              </div>
+              <!-- <h5 class="text-uppercase mt-4 mb-3">Spiratest</h5> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--skills section exit -->
+
+    <!-- portfolio Section -->
+    <section id="portfolio" class="portfolio_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="text-center col-sm-12 text-left mb-md-5 mb-2">
+            <h2><em>I MIEI RECENTI LAVORI</em></h2>
+          </div>
+        </div>
+        <div class="row">
+          <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-one-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-one"
+                type="button"
+                role="tab"
+                aria-controls="pills-one"
+                aria-selected="true"
+              >
+                Certificazioni
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-two-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-two"
+                type="button"
+                role="tab"
+                aria-controls="pills-two"
+                aria-selected="true"
+              >
+                Progetti
+              </button>
+            </li>
+
+            <!-- 
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                            aria-selected="true">Prossimi</button>
+                    </li> -->
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade"
+              id="pills-two"
+              role="tabpanel"
+              aria-labelledby="pills-two-tab"
+            >
+              <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="portfolio-img">
+                    <img src="./img/savofats.png" class="img-fluid w-100" />
+                    <div class="overlay"><i class="fas fa-plus"></i></div>
+                  </div>
+                  <h5 class="mb-0 mt-4">
+                    <a href="https://www.savofats.com"> Savo Fats</a>
+                  </h5>
+                  <p>Tech Blog</p>
+                </div>
+                <!-- <div class="col-lg-4 col-sm-6">
+                  <div class="portfolio-img">
+                    <img src="./img/ukraine.png" class="img-fluid w-100" />
+                    <div class="overlay"><i class="fas fa-plus"></i></div>
+                  </div>
+                  <h5 class="mb-0 mt-4">
+                    <a href="https://donation2ukraine.netlify.app"
+                      >Counter - JavaScript Basic</a
+                    >
+                  </h5>
+                  <p>Progetto start2impact</p>
+                </div> -->
+                <!-- <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img src="./img/ScrumMasterCertified-saveriograssi-941010.pdf" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">MINIMAL DESIGN</h5>
+                                <p>Animated, portfolio</p>
+                            </div> -->
+              </div>
+            </div>
+            <div
+              class="tab-pane fade show active"
+              id="pills-one"
+              role="tabpanel"
+              aria-labelledby="pills-one-tab"
+            >
+              <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="portfolio-img">
+                    <img
+                      src="./img/ScrumMasterCertified-saveriograssi-941010.pdf"
+                      class="img-fluid w-100"
+                    />
+                    <div class="overlay"><i class="fas fa-plus"></i></div>
+                  </div>
+                  <h5 class="mb-0 mt-4">Scrum Master Certified</h5>
+                  <p>SCRUM Study</p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="portfolio-img">
+                    <img src="./img/sixsigma.pdf" class="img-fluid w-100" />
+                    <div class="overlay"><i class="fas fa-plus"></i></div>
+                  </div>
+                  <h5 class="mb-0 mt-4">Six Sigma Yellow Belt</h5>
+                  <p>6sigma Study</p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="portfolio-img">
+                    <img
+                      src="./img/COMPLETAMENTO_TEST.png"
+                      class="img-fluid w-100"
+                    />
+                    <div class="overlay"><i class="fas fa-plus"></i></div>
+                  </div>
+                  <h5 class="mb-0 mt-4">JAVASCRIPT BASICS</h5>
+                  <p>start2impact</p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="portfolio-img">
+                    <img src="./img/html-css.png" class="img-fluid w-100" />
+                    <div class="overlay"><i class="fas fa-plus"></i></div>
+                  </div>
+                  <h5 class="mb-0 mt-4">HTML & CSS</h5>
+                  <p>start2impact</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-three"
+              role="tabpanel"
+              aria-labelledby="pills-three-tab"
+            >
+              <div class="row">
+                <!-- <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio/portfolio7.webp" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">MINIMAL DESIGN</h5>
+                                <p>Animated, portfolio</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio/portfolio8.webp" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">MINIMAL DESIGN</h5>
+                                <p>Animated, portfolio</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio/portfolio9.webp" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">MINIMAL DESIGN</h5>
+                                <p>Animated, portfolio</p>
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio Section exit -->
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+      <div class="container mt-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 text-center">
+            <div class="footer-logo mb-3 mb-md-0">
+              <img src="img/logo.svg" />
+            </div>
+            <div class="my-4 social-icons">
+              <h5>CONTATTI</h5>
+              <ul
+                class="list-unstyled justify-content-center align-items-center"
+              >
+                <li>Email: saveriograssi1@gmail.com</li>
+                <li>Cell: +39 3925201679</li>
+              </ul>
+              <ul
+                class="list-unstyled d-flex justify-content-center align-items-center"
+              >
+                <li>
+                  <a href="https://www.linkedin.com/in/saveriograssi/"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/savofats"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <br />
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <p class="footer-text text-center my-2">
+              Copyright © 2023 All rights reserved | This Portfolio was made by
+              <a href="#">Saverio Grassi.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
