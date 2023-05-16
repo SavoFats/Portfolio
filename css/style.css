@@ -248,17 +248,12 @@ li{
 
 
 .about_wrapper .single-logo-item {
-    width: 100%;
-    height: 6.875rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--bg-light);
     cursor: pointer;
-    box-shadow: none;
-   /*  -webkit-transition: all .4s ease 0s;
+    -webkit-transition: all .4s ease 0s;
     -moz-transition: all .4s ease 0s;
     -o-transition: all .4s ease 0s;
-    transition: all .4s ease 0s; */ 
+    transition: all .4s ease 0s;
 }
 
 .about_wrapper .single-logo-item:hover {
